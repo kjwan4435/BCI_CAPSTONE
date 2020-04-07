@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        title BCI_CAPSTONE DEMO
+        script(src="https://kit.fontawesome.com/f37000b42a.js", crossorigin="anonymous")
+        link(rel="stylesheet", href="/static/styles.css")
+
+    body 
+        main
+            .form__container
+                form(action=`/`, method="post")
+                    input(type="text", placeholder="name", name="name", required=true)
+                    input(type="number", placeholder="age", name="age", required=true)
+                    input(type="text", placeholder="country", name="country", required=true)
+                    input(type="text", placeholder="education", name="education", required=true)
+                    input(type="submit", value="Next")
+                    
+        script(src="/static/main.js")

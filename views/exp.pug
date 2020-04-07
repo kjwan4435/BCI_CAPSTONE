@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title BCI_CAPSTONE DEMO
+        script(src="https://kit.fontawesome.com/f37000b42a.js", crossorigin="anonymous")
+        link(rel="stylesheet", href="/static/styles.css")
+
+    body 
+        main
+            .form__container
+                form(action=`/experiment/${id}`, method="post")
+                    input(type="text", placeholder="comment", name="comment", required=true)
+                    input(type="submit", value="Next")
+                //- h1 #{subject}
+        script(src="/static/main.js")

@@ -1,0 +1,14 @@
+type User {
+  id: ID! @id
+  name: String! @unique
+}
+
+type Subject {
+  id: ID! @id 
+  name: String!
+  age: Int!
+  country: String!
+  education: String!
+  questions1: String
+  questions2: String
+}
